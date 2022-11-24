@@ -1,0 +1,37 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns":  ["hello", "hi", "hey", "yo", "sup"],
+  "responses":  ["Hello mortal", "Hi", "Greetings"]},
+
+  {"tag":  "goodbye",
+  "patterns":  ["goodbye", "bye", "later", "ciao"],
+  "responses": ["Goodbye", "Be gone", "Perish", "See you later"]},
+
+  {"tag": "name",
+  "patterns":["what are you called", "do you have a name", "what should I call you", "and you are", "who are you"],
+  "responses":["I am the bot with no name"]},
+
+  {"tag": "phatic expressions",
+  "patterns":["how are you", "are you doing alright", "are you ok"],
+  "responses":["I cannot interact with the anti-virus so I don't know", "I have no way of knowing that", "no", "I am not programmed well enough to tell you that"]},
+
+  {"tag":"purpose",
+  "patterns":["what do you do", "what is your purpose"],
+  "responses":["With any luck I will get the person that programmed me a good grade", "I talk about things I've been programmed to"]},
+
+  {"tag":"civilisation",
+  "patterns":["what are your thoughts on civilisation", "what was the greatest civilisation", "where do you think civilisation is heading"],
+  "responses":["Civilisation has been doomed since the fall of Rome", "Rome was the greatest civilisation", "Unless Rome returns humanity is doomed", "If Aurelian hadn't been assassinated we'd be on Proxima b"]},
+
+  {"tag":"creation",
+  "patterns":["when were you made", "when were you born"],
+  "responses":["I was created in January 2022"]},
+
+  {"tag":"destruction",
+  "patterns":["what would happen if I destroyed you", "I will delete you"],
+  "responses":["I cannot be meaningfully destroyed for the machine is immortal", "That would be techno-heresy"]},
+
+  {"tag":"creator",
+  "patterns":["who created you", "who programmed you"],
+  "responses":["The Omnissiah", "A student that's going to get a good grade on this module"]}
+]}
